@@ -29,10 +29,16 @@ class GuestTest < MiniTest::Test
     assert_equal(@song_choice, @guest1.song_choice)
   end
 
-  def paying_for_karaoke
-    result = @
-    assert_equal(,@guest1.wallet)
+  def test_say_whoooHooo
+    result = @guest1.return_a_yell
+    assert_equal("Whoooo",result)
   end
+
+  def test_say_Awww_nnnooo
+    result = @guest1.return_a_sad_yell
+    assert_equal("Awww",result)
+  end
+
 
 
 end
