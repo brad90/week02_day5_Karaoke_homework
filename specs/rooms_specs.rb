@@ -85,10 +85,10 @@ class RoomTest < MiniTest::Test
   # end
 
 
-  def test_buying_food
-    @room1.customer_pays_for_food
-    assert_equal(1,@room1.tab[:@food])
-  end
+  # def test_buying_food
+  #   @room1.customer_pays_for_food
+  #   assert_equal(1,@room1.tab[:@food])
+  # end
 
 
 

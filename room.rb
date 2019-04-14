@@ -40,9 +40,9 @@ class Room
      @playlist.each { |song| return @guest.return_a_yell if song = @guest.song_choice}
   end
 
-  def customer_pays_for_food
-    @tab[:@food] += 1
-  end
+  # def customer_pays_for_food
+  #   @tab[:@food] += 1
+  # end
 
 
 
